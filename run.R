@@ -34,3 +34,8 @@ btDF <- read.csv("output/met_data_hourly_below_canopy.csv")
 
 #### merge two datasets
 airTDF <- merge_above_below_canopy_data(atDF, btDF)
+
+
+#### make basic plots
+plot_canopy_temperature_profile(airTDF)
+
