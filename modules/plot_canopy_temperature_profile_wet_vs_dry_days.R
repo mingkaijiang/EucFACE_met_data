@@ -26,13 +26,11 @@ plot_canopy_temperature_profile_wet_vs_dry_days <- function(plotDF) {
               legend.text=element_text(size=12, family="Helvetica"),
               legend.title=element_text(size=12, family="Helvetica"),
               panel.grid.major=element_blank(),
-              legend.position="right",
+              legend.position="bottom",
               legend.text.align=0,
               legend.direction="vertical")+
         xlab("HOD") +
         ylab("Tair diff (above - below)")+
-        #scale_fill_continuous(type = "viridis")+
-        #scale_color_discrete(type = "viridis")+
         xlim(0, 24)
     
     
