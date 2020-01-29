@@ -167,7 +167,7 @@ plot_canopy_temperature_profile <- function(plotDF) {
         scale_color_continuous(type = "viridis")+
         xlim(0, 24)
     
-    plot(p6)
+    #plot(p6)
     
     
     ################################## save output
