@@ -1,4 +1,4 @@
-plot_canopy_temperature_profile_wet_vs_dry_days <- function(plotDF) {
+plot_above_below_canopy_temperature_profile_wet_vs_dry_days <- function(plotDF) {
     
     ### process the data
     plotDF$HOD <- hour(plotDF$DateHour)

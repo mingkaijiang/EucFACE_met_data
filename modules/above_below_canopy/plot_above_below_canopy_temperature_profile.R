@@ -1,4 +1,4 @@
-plot_canopy_temperature_profile <- function(plotDF) {
+plot_above_below_canopy_temperature_profile <- function(plotDF) {
     
     ######################### Plot diff vs tair, with all data
     
